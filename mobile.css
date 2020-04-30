@@ -14,6 +14,7 @@
 
 .random-beat {
   padding: 0.5rem 1rem;
+  justify-self: start;
 }
 .pad {
   width: 3rem;

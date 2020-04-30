@@ -90,65 +90,43 @@ button {
 }
 
 .kick-track {
-  background-color: tomato;
+  background-color: rgb(238, 202, 196);
 }
 
 .kick-pad {
-  background-color: #d0ec92;
+  background-color: #7f807e;
 }
 
 .active.kick-pad {
-  background-color: #ceff61;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
 }
 
-#kick-select,
-.active.kick-mute {
-  background-color: #5c89e2;
-}
 #kick-select option {
-  background: #94b7fb;
   color: black;
   font-size: 1rem;
 }
 .snare-track {
-  background-color: lightgreen;
+  background-color: rgb(201, 240, 201);
 }
 .snare-pad {
-  background-color: #b8adf3;
+  background-color: #7f807e;
 }
 
-#snare-select,
-.active.snare-mute {
-  background-color: #ffb780;
-}
-
-#snare-select option {
-  background-color: #fbd2b3;
-  color: black;
-  font-size: 1rem;
-}
 .active.snare-pad {
-  background-color: #9889e4;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
 }
 .hihat-track {
-  background-color: lightskyblue;
+  background-color: rgb(201, 226, 241);
 }
 
 .hihat-pad {
-  background-color: #fffd80;
+  background-color: #7f807e;
 }
 .active.hihat-pad {
-  background-color: rgb(233, 230, 78);
-}
-#hihat-select,
-.active.hihat-mute {
-  background-color: rgb(233, 230, 78);
-}
-
-#hihat-select option {
-  background-color: rgb(238, 237, 185);
-  color: black;
-  font-size: 1rem;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
 }
 
 .kick,
@@ -188,7 +166,6 @@ button {
   cursor: pointer;
 }
 .volume p {
-  color: white;
   text-align: center;
   font-size: 0.75rem;
 }
